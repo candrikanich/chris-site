@@ -4,7 +4,7 @@
             <h1>Learn more about me...</h1>
         </header>
         <article>
-            <img src="i/cwa.jpg" class="img-rounded img-responsive" alt="Chris Andrikanich" />
+            <img src="../assets/img/cwa.jpg" alt="Hi, I am Chris Andrikanich" />
             <p>For over 18 years, I taught myself HTML and CSS to market Cleveland books by assisting great local authors with their social media and web presence.</p>
 
             <p>That passion for learning how to code led me to Tech Elevator where I was able to expand my developer skillset and move on to the world of web development.</p>
