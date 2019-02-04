@@ -12,13 +12,16 @@
 </template>
 
 <style lang="less" scoped>
+    @import url("../assets/styles/main.less");
+
     section {
-        // order: 1px solid #fff;
-        background: url("../assets/img/cwa.jpg") center center no-repeat;
+        border: 1px solid red;
+        background: url("../assets/img/cwa.png") center center no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        background-color: #464646;
-        
+        background-color: @background-color;
+        height: 100%;
+
         // header {
         //     // border: 1px solid #990000;
         //     margin-top: 68%;
