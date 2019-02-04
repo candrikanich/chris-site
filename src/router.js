@@ -24,17 +24,17 @@ export default new Router({
     {
       path: '/resume',
       name: 'resume',
-      component: () => import(/* webpackChunkName: "resume" */ './views/MyResume.vue'),
+      component: () => import(/* webpackChunkName: "resume" */ './views/Resume.vue'),
     },
     {
       path: '/alphabet',
       name: 'alphabet',
-      component: () => import(/* webpackChunkName: "alphabet" */ './views/AlphabetStory.vue'),
+      component: () => import(/* webpackChunkName: "alphabet" */ './views/Alphabet.vue'),
     },
     {
       path: '/projects',
       name: 'projects',
-      component: () => import(/* webpackChunkName: "projects" */ './views/MyProjects.vue'),
+      component: () => import(/* webpackChunkName: "projects" */ './views/Projects.vue'),
     }
   ]
 })
