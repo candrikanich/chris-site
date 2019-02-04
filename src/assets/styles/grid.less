@@ -1,0 +1,116 @@
+// * {border: 1px solid red;}
+
+// variables and defaults
+@paddingDefault: 20px;
+@baseFontSize: 16px;
+@baseLineHeight: 1.5em;
+@baseRadius: 5px;
+@basePadding: 20px;
+@baseMargin: 20px;
+
+// viewport sizes for media queries
+@vp-xsmall: 640px;
+@vp-small: 768px;
+@vp-med: 1024px;
+@vp-large: 1440px;
+@vp-xlarge: 1840px;
+
+@black: #000;
+@gray90: lighten(@black, 10%);
+@gray75: lighten(@black, 25%);
+@gray50: lighten(@black, 50%);
+@gray25: lighten(@black, 75%);
+@gray10: lighten(@black, 90%);
+@white: #fff;
+
+// grid setup
+.grid-container {
+  display: block;
+
+  &:after {
+    content: "";
+  
+    display: table;
+    clear: both;
+  }
+  
+  @supports (display: grid) {
+    // sample from pinned codepen
+    // display: grid;
+    // grid-auto-flow: row dense;
+    // grid-template-columns: 1fr;
+    // width: 100%;
+    // border: 1px solid red;
+  
+    margin: 0;
+    display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    // grid-template-rows: 4em auto;
+    // grid-auto-rows: 6em;
+    grid-gap: 2em 2em;
+  
+    // justify-content: start;
+    // align-content: end;
+    // justify-items: stretch;
+    // align-items: stretch;
+    place-items: stretch / stretch; // short for above
+    transition: all 1s;
+
+    &:after {
+      content: none;
+    }
+
+    @media (max-width: @vp-xsmall) {
+      grid-template-columns: repeat(1, 1fr); 
+      grid-template-areas: 
+      "headerContent"
+      "formContent" ;
+      grid-gap: 1em 1em;
+    }
+    
+    @media (min-width: @vp-xsmall) {
+      grid-template-columns: repeat(2, 1fr); 
+      grid-template-areas: 
+      "headerContent headerContent"
+      "formContent formContent" ;
+      grid-gap: 1em 1em;
+    }
+    
+    @media (min-width: @vp-small) {
+      grid-template-columns: repeat(3, 1fr); 
+      grid-template-areas: 
+      "headerContent headerContent headerContent"
+      "formContent formContent formContent" ;
+    }
+    
+    @media (min-width: @vp-med) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: 
+      "headerContent headerContent headerContent headerContent"
+      "formContent formContent formContent formContent" ;
+    }
+    
+    @media (min-width: @vp-large) {
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-areas: 
+      "headerContent headerContent headerContent headerContent headerContent"
+      "formContent formContent formContent formContent formContent" ;
+    }
+  }
+}
+ 
+// grid template area
+.headerContent {
+  grid-area: headerContent;
+  justify-self: stretch;
+  // align-self: center; // to align specific elements
+  // align-items: center;
+  padding: @paddingDefault;
+  // border: 1px solid green;
+  background-color: green;
+  height: 4em;
+  background: transparent url('http://172.104.214.54/logo.156f12f1c87c86858c53.png') no-repeat center center;
+}
+
+
+
