@@ -22,10 +22,6 @@
 <style lang="less">
     @import url("../assets/styles/main.less");
 
-    nav {
-        display: none;
-    }
-
     section.landingPage {
         background: url("../assets/img/cwa.png") center center no-repeat;
         background-attachment: fixed;
@@ -62,5 +58,37 @@
         }
 
     }
+
+    nav {
+    padding: 1em;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+
+    a {
+      color: #2c3e50;
+      text-decoration: none;
+      padding: 3px;
+      margin: 0 3px;
+      border: 1px solid #2c3e50;
+      border-radius: 5px;
+      background-color: #fff;
+      font-size: 0.9em;
+      width: 20vw;
+
+      &.router-link-exact-active {
+        color: #42b983;
+        font-weight: bold;
+        text-decoration-color: #2c3e50;
+        display: none;
+      }
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+
+  }
 </style>
 
