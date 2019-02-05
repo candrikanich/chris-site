@@ -65,7 +65,9 @@
       grid-template-rows: repeat(1, 1fr);
       grid-template-areas: 
       "nav"
-      "landing";
+      "landing"
+      "resume"
+      "bio";
       grid-gap: 0;
       height: 100vh;
     }
@@ -113,5 +115,15 @@ nav {
 
 section.landingPage {
   grid-area: landing;
+}
+
+section.resume {
+  grid-area: resume;
+  padding: 2em;
+}
+
+section.biography {
+  grid-area: bio;
+  padding: 2em;
 }
 

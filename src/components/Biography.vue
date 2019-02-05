@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="biography">
         <header>
             <h1>Learn more about me...</h1>
         </header>
@@ -20,12 +20,3 @@
         </article>
     </section>
 </template>
-
-<style lang="less" scoped>
-    @import url("../assets/styles/variables");
-
-    nav {
-        position: relative;
-    }
-</style>
-
