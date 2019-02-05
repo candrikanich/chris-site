@@ -1,16 +1,5 @@
 <template>
   <div id="app" class="grid-container">
-
-    <!-- NAVIGATION -->
-    <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About Me</router-link>
-      <router-link to="/resume">My Resume</router-link>
-      <!-- <router-link to="/alphabet">The Alphabet Story</router-link> -->
-      <!-- <router-link to="/projects">My Projects</router-link> -->
-    </nav>
-
-    <!-- CONTENT INJECTION -->
     <router-view/>
   </div>
 </template>
@@ -40,7 +29,6 @@
       &.router-link-exact-active {
         color: #fff;
         font-weight: bold;
-        // text-decoration: underline overline dotted #fff;
         border-bottom: 1px dotted #fff;
         border-top: 1px dotted #fff;
       }
