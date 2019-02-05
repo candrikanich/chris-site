@@ -8,3 +8,32 @@
       <!-- <router-link to="/projects">My Projects</router-link> -->
     </nav>
 </template>
+
+<style lang="less" scoped>
+@import url("../assets/styles/variables.less");
+
+nav {
+    padding: @basePadding 0;
+    background-color: @background-color;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+
+    a {
+      color: #2c3e50;
+      text-decoration: none;
+
+
+      &.router-link-exact-active {
+        color: #fff;
+        font-weight: bold;
+        border-bottom: 1px dotted #fff;
+        border-top: 1px dotted #fff;
+      }
+    }
+
+  }
+
+ 
+</style>
+
