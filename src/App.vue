@@ -6,8 +6,8 @@
       <router-link to="/">Home</router-link>
       <router-link to="/about">About Me</router-link>
       <router-link to="/resume">My Resume</router-link>
-      <router-link to="/alphabet">The Alphabet Story</router-link>
-      <router-link to="/projects">My Projects</router-link>
+      <!-- <router-link to="/alphabet">The Alphabet Story</router-link> -->
+      <!-- <router-link to="/projects">My Projects</router-link> -->
     </nav>
 
     <!-- CONTENT INJECTION -->
@@ -18,14 +18,6 @@
 <style lang="less">
   @import url("assets/styles/main.less");
 
-  html {
-    height: 100%;
-
-    body {
-      min-height: 100%;
-    }
-  }
-
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -33,24 +25,24 @@
     color: #2c3e50;
   }
   nav {
-    padding: 30px;
-    background-color: #ccc;
+    padding: @basePadding 0;
+    background-color: @background-color;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 1fr;
 
     a {
       color: #2c3e50;
       text-decoration: none;
-      border-right: 1px solid green;
-      margin-right: 15px;
-      padding-right: 15px;
+
 
       &.router-link-exact-active {
-        color: #42b983;
+        color: #fff;
         font-weight: bold;
-        text-decoration-color: #2c3e50;
-      }
-
-      &:last-child {
-        border-right: none;
+        // text-decoration: underline overline dotted #fff;
+        border-bottom: 1px dotted #fff;
+        border-top: 1px dotted #fff;
       }
     }
 

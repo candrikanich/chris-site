@@ -20,3 +20,12 @@
         </article>
     </section>
 </template>
+
+<style lang="less" scoped>
+    @import url("../assets/styles/variables");
+
+    nav {
+        position: relative;
+    }
+</style>
+

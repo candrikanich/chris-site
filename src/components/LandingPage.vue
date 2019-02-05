@@ -19,7 +19,7 @@
     }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
     @import url("../assets/styles/main.less");
 
     section.landingPage {
@@ -60,22 +60,17 @@
     }
 
     nav {
-    padding: 1em;
     background-color: rgba(255,255,255,0.5);
     z-index: 2;
     position: absolute;
-    bottom: 0;
+    bottom: 25%;
 
     a {
-      color: #2c3e50;
-      text-decoration: none;
-      padding: 3px;
-      margin: 0 3px;
+      padding: 8px 15px;
       border: 1px solid #2c3e50;
       border-radius: 5px;
       background-color: #fff;
-      font-size: 0.9em;
-      width: 20vw;
+      font-size: @baseFontSize;
 
       &.router-link-exact-active {
         color: #42b983;
@@ -84,9 +79,12 @@
         display: none;
       }
 
-      &:last-child {
-        border-right: none;
+      &:hover {
+          background-color: #2c3e50;
+          color: #fff;
+          border: 1px solid #000;
       }
+
     }
 
   }

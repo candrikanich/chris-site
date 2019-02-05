@@ -66,7 +66,7 @@
       grid-template-areas: 
       "nav"
       "landing";
-      grid-gap: 1em 1em;
+      grid-gap: 0;
       height: 100vh;
     }
     
@@ -77,6 +77,7 @@
       "nav nav" 
       "landing landing";
       grid-gap: 1em 1em;
+      height: 100vh;
     }
     
     @media (min-width: @vp-small) {
@@ -85,6 +86,7 @@
       grid-template-areas: 
       "nav nav nav"
       "landing landing landing";
+      height: 100vh;
     }
     
     @media (min-width: @vp-med) {
@@ -92,6 +94,7 @@
       grid-template-areas: 
       "nav nav nav nav"
       "landing landing landing landing";
+      height: 100vh;
     }
     
     // @media (min-width: @vp-large) {
@@ -106,13 +109,6 @@
 // grid template area
 nav {
   grid-area: nav;
-  justify-self: stretch;
-  align-self: center; // to align specific elements
-  align-items: center;
-  padding: @paddingDefault;
-  border: 1px solid green;
-  background-color: green;
-  height: 4em;
 }
 
 section.landingPage {
