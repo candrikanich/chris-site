@@ -62,55 +62,60 @@
 
     @media (max-width: @vp-xsmall) {
       grid-template-columns: repeat(1, 1fr); 
+      grid-template-rows: repeat(1, 1fr);
       grid-template-areas: 
-      "headerContent"
-      "formContent" ;
+      "nav"
+      "landing";
       grid-gap: 1em 1em;
+      height: 100vh;
     }
     
     @media (min-width: @vp-xsmall) {
       grid-template-columns: repeat(2, 1fr); 
+      grid-template-rows: repeat(1, 1fr);
       grid-template-areas: 
-      "headerContent headerContent"
-      "formContent formContent" ;
+      "nav nav" 
+      "landing landing";
       grid-gap: 1em 1em;
     }
     
     @media (min-width: @vp-small) {
       grid-template-columns: repeat(3, 1fr); 
+      grid-template-rows: repeat(1, 1fr);
       grid-template-areas: 
-      "headerContent headerContent headerContent"
-      "formContent formContent formContent" ;
+      "nav nav nav"
+      "landing landing landing";
     }
     
     @media (min-width: @vp-med) {
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: 
-      "headerContent headerContent headerContent headerContent"
-      "formContent formContent formContent formContent" ;
+      "nav nav nav nav"
+      "landing landing landing landing";
     }
     
-    @media (min-width: @vp-large) {
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-areas: 
-      "headerContent headerContent headerContent headerContent headerContent"
-      "formContent formContent formContent formContent formContent" ;
-    }
+    // @media (min-width: @vp-large) {
+    //   grid-template-columns: repeat(5, 1fr);
+    //   grid-template-areas: 
+    //   "headerContent headerContent headerContent headerContent headerContent"
+    //   "formContent formContent formContent formContent formContent" ;
+    // }
   }
 }
  
 // grid template area
-.headerContent {
-  grid-area: headerContent;
+nav {
+  grid-area: nav;
   justify-self: stretch;
-  // align-self: center; // to align specific elements
-  // align-items: center;
+  align-self: center; // to align specific elements
+  align-items: center;
   padding: @paddingDefault;
-  // border: 1px solid green;
+  border: 1px solid green;
   background-color: green;
   height: 4em;
-  background: transparent url('http://172.104.214.54/logo.156f12f1c87c86858c53.png') no-repeat center center;
 }
 
-
+section.landingPage {
+  grid-area: landing;
+}
 
