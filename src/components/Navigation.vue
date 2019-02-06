@@ -18,22 +18,20 @@ nav {
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
+    position: sticky;
+    top: 0;
 
     a {
       color: #2c3e50;
       text-decoration: none;
-
+      padding: 4px 3px 3px;
 
       &.router-link-exact-active {
         color: #fff;
-        font-weight: bold;
         border-bottom: 1px dotted #fff;
         border-top: 1px dotted #fff;
       }
     }
-
   }
-
- 
 </style>
 

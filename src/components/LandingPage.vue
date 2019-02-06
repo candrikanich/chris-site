@@ -29,6 +29,10 @@
         background-color: @background-color;
         height: 100vh;
         width: 100vw;
+        overflow-x: hidden; 
+        overflow-y: auto;
+        position: sticky;
+        top: 0;
 
         header {
             padding: 1em;
@@ -51,6 +55,7 @@
                 color: #fff;
             }
         }
+
         article {
             padding-top: 30%;
             background-color: #464646;
@@ -58,32 +63,12 @@
         }
     }
 
-//     nav {
-//     background-color: rgba(255,255,255,0.5);
-//     z-index: 2;
-//     position: absolute;
-//     bottom: 25%;
-
-//     a {
-//       padding: 8px 15px;
-//       border: 1px solid #2c3e50;
-//       border-radius: 5px;
-//       background-color: #fff;
-//       font-size: @baseFontSize;
-
-//       &.router-link-exact-active {
-//         color: #42b983;
-//         font-weight: bold;
-//         text-decoration-color: #2c3e50;
-//         display: none;
-//       }
-
-//       &:hover {
-//           background-color: #2c3e50;
-//           color: #fff;
-//           border: 1px solid #000;
-//       }
-//     }
-//   }
+    // footer {
+    //         position: sticky;
+    //         bottom: -40px;
+    //         padding: 1em;
+    //         background-color: @primary-color;
+    //         z-index: 3;
+    //     }
 </style>
 

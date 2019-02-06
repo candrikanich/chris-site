@@ -97,14 +97,33 @@
       "nav nav nav nav"
       "landing landing landing landing";
       height: 100vh;
+
+      .landingPage {
+        // background-position-y: -60px;
+
+        header {
+          width: 60vw;
+          margin: 0 auto;
+        }
+      }
     }
     
-    // @media (min-width: @vp-large) {
-    //   grid-template-columns: repeat(5, 1fr);
-    //   grid-template-areas: 
-    //   "headerContent headerContent headerContent headerContent headerContent"
-    //   "formContent formContent formContent formContent formContent" ;
-    // }
+    @media (min-width: @vp-large) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: 
+      "nav nav nav nav"
+      "landing landing landing landing";
+      height: 100vh;
+
+      .landingPage {
+        background-position-y: -60px;
+
+        header {
+          width: 60vw;
+          margin: 0 auto;
+        }
+      }
+    }
   }
 }
  
