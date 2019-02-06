@@ -1,9 +1,9 @@
 <template>
     <!-- NAVIGATION -->
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About Me</router-link>
-      <router-link to="/resume">My Resume</router-link>
+      <router-link to="/"><i class="fa fa-home"></i> Home</router-link>
+      <router-link to="/about"><i class="fa fa-user"></i> About Me</router-link>
+      <router-link to="/resume"><i class="fa fa-file"></i> My Resume</router-link>
       <!-- <router-link to="/alphabet">The Alphabet Story</router-link> -->
       <!-- <router-link to="/projects">My Projects</router-link> -->
     </nav>
@@ -25,6 +25,11 @@ nav {
       color: #2c3e50;
       text-decoration: none;
       padding: 4px 3px 3px;
+
+      &:hover {
+        color: #000;
+        border-bottom: 1px dotted @primary-color;
+      }
 
       &.router-link-exact-active {
         color: #fff;
