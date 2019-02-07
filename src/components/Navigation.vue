@@ -14,7 +14,7 @@
 
 nav {
     padding: @basePadding 0;
-    background-color: @background-color;
+    background-color: #2c3e50;
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
@@ -22,12 +22,12 @@ nav {
     top: 0;
 
     a {
-      color: #2c3e50;
+      color: @gray25;
       text-decoration: none;
       padding: 4px 3px 3px;
 
       &:hover {
-        color: #000;
+        color: @gray10;
         border-bottom: 1px dotted @primary-color;
       }
 

@@ -32,7 +32,7 @@
         overflow-x: hidden; 
         overflow-y: auto;
         position: sticky;
-        top: 0;
+        z-index: 3;
 
         header {
             padding: 1em;
@@ -56,19 +56,9 @@
             }
         }
 
-        article {
-            padding-top: 30%;
-            background-color: #464646;
-            opacity: 0.5;
+        i {
+            margin-right: 5px;
         }
     }
-
-    // footer {
-    //         position: sticky;
-    //         bottom: -40px;
-    //         padding: 1em;
-    //         background-color: @primary-color;
-    //         z-index: 3;
-    //     }
 </style>
 
