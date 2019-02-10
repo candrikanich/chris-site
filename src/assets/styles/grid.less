@@ -67,9 +67,9 @@
       "nav"
       "landing"
       "resume"
-      "bio";
+      "bio"
+      "site";
       grid-gap: 0;
-      height: 100vh;
     }
     
     @media (min-width: @vp-xsmall) {
@@ -77,9 +77,9 @@
       grid-template-rows: repeat(1, 1fr);
       grid-template-areas: 
       "nav nav" 
-      "landing landing";
+      "landing landing"
+      "site site";
       grid-gap: 1em 1em;
-      height: 100vh;
     }
     
     @media (min-width: @vp-small) {
@@ -87,8 +87,8 @@
       grid-template-rows: repeat(1, 1fr);
       grid-template-areas: 
       "nav nav nav"
-      "landing landing landing";
-      height: 100vh;
+      "landing landing landing"
+      "site site site";
     }
     
     @media (min-width: @vp-med) {
@@ -96,7 +96,6 @@
       grid-template-areas: 
       "nav nav nav nav"
       "landing landing landing landing";
-      height: 100vh;
 
       .landingPage {
         // background-position-y: -60px;
@@ -146,3 +145,7 @@ section.biography {
   padding: 2em;
 }
 
+section.site {
+  grid-area: site;
+  padding: 2em;
+}
