@@ -34,6 +34,8 @@
         padding: @basePadding 0;
         background-color: #2c3e50;
         width: 100vw;
+        position: sticky;
+        bottom: 0;
 
         header {
             justify-content: stretch;

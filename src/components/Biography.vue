@@ -20,3 +20,9 @@
         </article>
     </section>
 </template>
+
+<style lang="less" scoped>
+    section.biography a {
+        height: 100vh;
+    }
+</style>

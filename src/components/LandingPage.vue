@@ -32,7 +32,7 @@
         overflow-x: hidden; 
         overflow-y: auto;
         position: sticky;
-        z-index: 3;
+        z-index: -1;
 
         header {
             padding: 1em;
