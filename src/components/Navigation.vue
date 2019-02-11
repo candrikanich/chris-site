@@ -13,17 +13,21 @@
 
 nav {
     padding: @basePadding 0;
-    background-color: @alternate-background-color;
+    background-color: darken(@background-color,20%);
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
     position: sticky;
     top: 0;
+    box-shadow: 0 0 8px @gray75;
 
     a {
       color: @gray25;
       text-decoration: none;
-      padding: 4px 3px 3px;
+      padding: 5px 3px 3px;
+      margin-left: 8px;
+      border-bottom: 1px dotted darken(@background-color,20%);
+      border-top: 1px dotted darken(@background-color,20%);
 
       &:hover {
         color: @gray10;
@@ -35,6 +39,10 @@ nav {
         border-bottom: 1px dotted @white;
         border-top: 1px dotted @white;
       }
+    }
+
+    .fa {
+      margin-right: 8px;
     }
   }
 </style>

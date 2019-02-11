@@ -33,9 +33,12 @@
         overflow-y: auto;
         position: sticky;
         z-index: -1;
+        padding-top: 20px;
 
         header {
             padding: 1em;
+            position: absolute;
+            top: 0;
 
             h1 {
                 font-size: 3.0em;
@@ -57,7 +60,7 @@
         }
 
         i {
-            margin-right: 5px;
+            margin-right: 8px;
         }
     }
 </style>
