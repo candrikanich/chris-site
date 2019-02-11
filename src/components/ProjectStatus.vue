@@ -10,14 +10,7 @@
                 <li><i class="fas fa-less"></i>Styled using LESS</li>
                 <li><i class="fas fa-aws"></i>Hosted by Amazon Web Services S3</li>
                 <li><i class="fas fa-github"></i>Code repository stored on Github</li>
-
             </ul>
         </article>
     </section>
 </template>
-
-<style lang="less" scoped>
-    section.site {
-        height: 100vh;
-    }
-</style>

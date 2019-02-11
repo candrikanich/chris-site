@@ -5,7 +5,7 @@
       </header>
       <article>
           <h4>Objective</h4>
-          <p>As a Front-End Developer, my passion for semantic HTML & CSS pushes myself to learn more, to work with my team to create high-quality code and to continuously enhance my skillset. My experience with taking someone else's vision and translating it to good usable code makes me a great fit for your team.</p>
+          <p>As a Front-End Developer, my passion for semantic HTML &amp; CSS pushes myself to learn more, to work with my team to create high-quality code and to continuously enhance my skillset. My experience with taking someone else's vision and translating it to good usable code makes me a great fit for your team.</p>
       </article>
       <article>
         <h4>Experience</h4>
@@ -13,9 +13,9 @@
         <!-- DEALER TIRE -->
         <h5>Dealer Tire, LLC, Web Developer, Cleveland, OH &mdash; 2016-Present</h5>
         <ul>
-            <li>Coordinated with team to launch Dealer Tire China by designing & skinning Porsche dealership web site</li>
+            <li>Coordinated with team to launch Dealer Tire China by designing &amp; skinning Porsche dealership web site</li>
             <li>Support web applications and branding updates for US and Canadian dealership websites</li>
-            <li>Led project to move Online Tire Store application to Nissan & Infiniti Canada dealerships</li>
+            <li>Led project to move Online Tire Store application to Nissan &amp; Infiniti Canada dealerships</li>
         </ul>
 
         <!-- TEALS -->
@@ -61,10 +61,10 @@
       <article>
         <h4>Education</h4>
         <ul>
-            <li>Tech Elevator, Cleveland, OH — Certificate, Expected Aug 2016
+            <li>Tech Elevator, Cleveland, OH &mdash; Certificate, Expected Aug 2016
                 <p>14 week accelerated coursework on Java software language</p>
             </li>
-            <li>Ohio University, Athens, OH — B.A. English, 1998</li>
+            <li>Ohio University, Athens, OH &mdash; B.A. English, 1998</li>
         </ul>
       </article>
     </section>
