@@ -32,7 +32,7 @@
 
     footer {
         padding: @basePadding 0;
-        background-color: #2c3e50;
+        background-color: @alternate-background-color;
         width: 100vw;
         position: sticky;
         bottom: 0;
@@ -41,7 +41,7 @@
             justify-content: stretch;
             width: 100vw;
             text-align: center;
-            color: #ccc;
+            color: @gray10;
 
             h2 {
                 margin: 0;
@@ -55,17 +55,17 @@
             justify-content: center;
         
             a {
-                color: #ccc;
-                // background-color: lighten(#2c3e50, 20%);
+                color: @gray10;
+                // background-color: lighten(@alternate-background-color, 20%);
                 text-decoration: none;
                 padding: 10px 15px;
-                border: 1px solid @font-color;
+                border: 1px solid @alternate-background-color;
                 border-radius: 5px;
                 margin: 0 10px;
 
                 &:hover {
-                    //background-color: darken(#2c3e50,10%);
-                    color: #fff;
+                    //background-color: darken(@alternate-background-color,10%);
+                    color: @white;
                 }
             }
         }

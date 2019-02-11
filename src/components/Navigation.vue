@@ -13,7 +13,7 @@
 
 nav {
     padding: @basePadding 0;
-    background-color: #2c3e50;
+    background-color: @alternate-background-color;
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
@@ -31,9 +31,9 @@ nav {
       }
 
       &.router-link-exact-active {
-        color: #fff;
-        border-bottom: 1px dotted #fff;
-        border-top: 1px dotted #fff;
+        color: @white;
+        border-bottom: 1px dotted @white;
+        border-top: 1px dotted @white;
       }
     }
   }

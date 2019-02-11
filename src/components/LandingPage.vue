@@ -52,7 +52,7 @@
                 margin: 0;
                 line-height: 1.0em;
                 text-shadow: 0 0 3px #464646;
-                color: #fff;
+                color: @white;
             }
         }
 
