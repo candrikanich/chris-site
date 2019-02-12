@@ -24,20 +24,20 @@ nav {
     a {
       color: @gray25;
       text-decoration: none;
-      padding: 5px 3px 3px;
+      padding: 5px 3px;
       margin-left: 8px;
-      border-bottom: 1px dotted darken(@background-color,20%);
-      border-top: 1px dotted darken(@background-color,20%);
+      border-bottom: 1px solid darken(@background-color,20%);
+      border-top: 1px solid darken(@background-color,20%);
 
       &:hover {
         color: @gray10;
-        border-bottom: 1px dotted @primary-color;
+        border-bottom: 1px solid @primary-color;
       }
 
       &.router-link-exact-active {
         color: @white;
-        border-bottom: 1px dotted @white;
-        border-top: 1px dotted @white;
+        border-bottom: 1px solid @white;
+        border-top: 1px solid @white;
       }
     }
 

@@ -34,8 +34,8 @@
         padding: @basePadding 0;
         background-color: darken(@background-color,20%);    
         width: 100vw;
-        position: sticky;
-        bottom: 0;
+        // position: sticky;
+        // bottom: 0;
 
         header {
             justify-content: stretch;
