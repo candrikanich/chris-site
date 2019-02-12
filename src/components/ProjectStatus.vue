@@ -6,10 +6,10 @@
         <article>
             <p>Here is a list of the technologies used to create this web site.</p>
             <ul>
-                <li><i class="fab fa-vuejs"></i> Built using Vue.js</li>
-                <li><i class="fab fa-less"></i> Styled using LESS</li>
-                <li><i class="fab fa-aws"></i> Hosted by Amazon Web Services S3</li>
-                <li><i class="fab fa-github"></i> Code repository stored on Github</li>
+                <li>Built using Vue.js <i class="fab fa-vuejs"></i> and HTML <i class="fab fa-html"></i></li>
+                <li>Styled using CSS <i class="fab fa-css3"></i> and LESS <i class="fab fa-less"></i></li>
+                <li>Hosted by Amazon Web Services S3 <i class="fab fa-aws"></i></li> 
+                <li>Code repository stored on Github <i class="fab fa-github"></i></li>
             </ul>
         </article>
     </section>
