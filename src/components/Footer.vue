@@ -32,7 +32,7 @@
 
     footer {
         padding: @basePadding 0;
-        background-color: @alternate-background-color;
+        background-color: darken(@background-color,20%);    
         width: 100vw;
         position: sticky;
         bottom: 0;
@@ -44,8 +44,8 @@
             color: @gray10;
 
             h2 {
-                margin: 0;
-                font-size: 1.4em;
+                margin: 0 0 15px 0;
+                font-size: 1.2em;
             }
         }
 
@@ -55,17 +55,18 @@
             justify-content: center;
         
             a {
-                color: @gray10;
-                // background-color: lighten(@alternate-background-color, 20%);
+                color: @gray25;
+                // background-color: darken(@background-color,30%);
                 text-decoration: none;
                 padding: 10px 15px;
-                border: 1px solid @alternate-background-color;
+                border: 1px solid darken(@background-color,20%);
                 border-radius: 5px;
                 margin: 0 10px;
 
                 &:hover {
-                    //background-color: darken(@alternate-background-color,10%);
+                    // background-color: darken(@background-color,10%);
                     color: @white;
+                    border: 1px solid @gray25;
                 }
             }
         }
