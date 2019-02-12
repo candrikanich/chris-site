@@ -5,22 +5,19 @@
         </header>  
         <section>
             <a href="mailto:chris@andrikanich.com">
-                <i class="fa fa-envelope"></i>
+                <i class="fas fa-envelope"></i>
             </a>
             <a href="https://www.linkedin.com/in/chrisandrikanich/">
-                <i class="fa fa-linkedin"></i>
+                <i class="fab fa-linkedin"></i>
             </a>
             <a href="http://www.twitter.com/alphabet">
-                <i class="fa fa-twitter"></i>
+                <i class="fab fa-twitter"></i>
             </a>
             <a href="https://www.facebook.com/chris.andrikanich">
-                <i class="fa fa-facebook"></i>
+                <i class="fab fa-facebook"></i>
             </a>
             <a href="https://github.com/candrikanich/">
-                <i class="fa fa-github"></i>
-            </a>
-            <a href="###">
-                <i class="fa fa-codepen"></i>
+                <i class="fab fa-github"></i>
             </a>
         </section>
         
