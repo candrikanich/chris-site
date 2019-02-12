@@ -17,7 +17,9 @@
     "aws-cli": "0.0.2",
     "babel-loader": "^8.0.5",
     "normalize.css": "^8.0.1",
+    "pip": "0.0.1",
     "prettier": "^1.12.1",
+    "python": "0.0.4",
     "vue": "^2.6.4",
     "vue-router": "^3.0.1"
   },
