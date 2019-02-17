@@ -28,6 +28,7 @@ nav {
       margin-left: 8px;
       border-bottom: 1px solid darken(@background-color,20%);
       border-top: 1px solid darken(@background-color,20%);
+      text-align: center;
 
       &:hover {
         color: @gray10;
