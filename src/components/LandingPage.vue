@@ -29,16 +29,12 @@
         background-color: @background-color;
         height: 100vh;
         width: 100vw;
-        overflow-x: hidden; 
-        overflow-y: auto;
-        position: sticky;
-        z-index: -1;
         padding-top: 20px;
 
         header {
             padding: 1em;
-            position: absolute;
-            top: 0;
+            position: fixed;
+            top: 90px;
 
             h1 {
                 font-size: 3.0em;
