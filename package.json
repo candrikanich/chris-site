@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "create": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit",
-    // "deploy": "aws s3 sync --acl public-read --delete ./dist/ s3://chrisandrikanich.com"
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
