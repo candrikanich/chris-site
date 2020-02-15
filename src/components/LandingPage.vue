@@ -23,13 +23,12 @@
     @import url("../assets/styles/main.less");
 
     section.landingPage {
-        background: url("../assets/img/cwa.png") center center no-repeat;
+        background: url("../assets/img/cwa.png") 50% 110px no-repeat;
         background-attachment: fixed;
         background-size: cover;
         background-color: @background-color;
         height: 100vh;
         width: 100vw;
-        padding-top: 20px;
 
         header {
             padding: 1em;
