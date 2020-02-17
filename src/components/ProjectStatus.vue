@@ -8,9 +8,11 @@
             <ul>
                 <li>Built using Vue.js <i class="fab fa-vuejs"></i> and HTML <i class="fab fa-html5"></i></li>
                 <li>Styled using CSS <i class="fab fa-css3"></i> and LESS <i class="fab fa-less"></i></li>
-                <li>Hosted by Amazon Web Services S3 <i class="fab fa-aws"></i></li> 
+                <li>Hosted by Netlify <i class="fab fa-netlify"></i></li>
+                <li>Deployed by GitLab <i class="fab fa-gitlab"></i></li>
                 <li>Code repository stored on Github <i class="fab fa-github"></i></li>
             </ul>
+            <a href="https://gitlab.com/candrikanich/chris-site/-/commits/master"><img alt="pipeline status" src="https://gitlab.com/candrikanich/chris-site/badges/master/pipeline.svg" /></a>
         </article>
     </section>
 </template>
